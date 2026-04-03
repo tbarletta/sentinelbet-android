@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.sentinelbet.app-debug-70:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.sentinelbet.app-main-72:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.sentinelbet.app-debug-70:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.sentinelbet.app-main-72:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.sentinelbet.app-debug-70:/xml_locale_config.xml.flat",
+        "source": "com.sentinelbet.app-main-72:/xml/locale_config.xml"
+    },
+    {
+        "merged": "com.sentinelbet.app-debug-70:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.sentinelbet.app-main-72:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.sentinelbet.app-debug-70:/drawable_ic_app_logo.xml.flat",
+        "source": "com.sentinelbet.app-main-72:/drawable/ic_app_logo.xml"
+    },
+    {
+        "merged": "com.sentinelbet.app-debug-70:/xml_network_security_config.xml.flat",
+        "source": "com.sentinelbet.app-main-72:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.sentinelbet.app-debug-70:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.sentinelbet.app-main-72:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.sentinelbet.app-debug-70:/drawable_ic_launcher_monochrome.xml.flat",
+        "source": "com.sentinelbet.app-main-72:/drawable/ic_launcher_monochrome.xml"
+    }
+]

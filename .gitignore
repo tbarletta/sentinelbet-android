@@ -1,0 +1,9 @@
+*.hprof
+*.log
+/build
+/.gradle
+/local.properties
+*.apk
+*.aab
+*.keystore
+*.jks

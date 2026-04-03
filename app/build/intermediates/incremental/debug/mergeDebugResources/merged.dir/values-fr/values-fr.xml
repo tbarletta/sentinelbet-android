@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="analysis_btn_save_analyze">Enregistrer &amp; Analyser</string>
+    <string name="analysis_btn_start">Démarrer l\'Analyse IA</string>
+    <string name="analysis_card_header">Analyse IA — Schémas Tactiques + Poisson</string>
+    <string name="analysis_dialog_subtitle">Entrez votre clé API pour utiliser l\'analyse IA.</string>
+    <string name="analysis_dialog_title">Clé API Anthropic</string>
+    <string name="analysis_key_placeholder">sk-ant-api03-…</string>
+    <string name="analysis_key_warning">⚠️ La clé doit commencer par sk-ant-</string>
+    <string name="analysis_model_label">CLAUDE SONNET — Analyse Prédictive</string>
+    <string name="analysis_placeholder">Configurez le match sur le Tableau de bord et cliquez sur Analyser avec l\'IA.</string>
+    <string name="analysis_poisson_matrix">Matrice de Poisson — Prob. par Score</string>
+    <string name="analysis_streaming">Analyse en cours…</string>
+    <string name="analysis_team_label">%1$s (Dom.) × %2$s (Ext.)</string>
+    <string name="analysis_title">ANALYSE IA</string>
+    <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"Mot de passe"</string>
+    <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"Clé d\'accès"</string>
+    <string name="app_name">SentinelBet</string>
+    <string name="bankroll_guide_aggressive">Agressif (10%)</string>
+    <string name="bankroll_guide_aggressive_desc">Edge élevé (>12%), conviction maximale</string>
+    <string name="bankroll_guide_conservative">Conservateur (2%)</string>
+    <string name="bankroll_guide_conservative_desc">Edge faible (3–6%), risque contrôlé</string>
+    <string name="bankroll_guide_golden">🏆 Règle d\'Or</string>
+    <string name="bankroll_guide_golden_text">Ne dépassez jamais 10% de votre bankroll par pari. Utilisez Kelly Fractionnel (25%) par défaut pour vous protéger de la variance.</string>
+    <string name="bankroll_guide_micro">Micro (1%)</string>
+    <string name="bankroll_guide_micro_desc">Paris exploratoires, cotes incertaines</string>
+    <string name="bankroll_guide_moderate">Modéré (5%)</string>
+    <string name="bankroll_guide_moderate_desc">Edge moyen (7–12%), haute confiance</string>
+    <string name="bankroll_guide_title">Guide de Gestion de Bankroll</string>
+    <string name="bankroll_input_bankroll">Bankroll Totale (€)</string>
+    <string name="bankroll_input_kelly_frac">Fraction Kelly (%)</string>
+    <string name="bankroll_input_odd">Cote</string>
+    <string name="bankroll_input_prob">Prob (%)</string>
+    <string name="bankroll_kelly_card">Calculateur Critère de Kelly</string>
+    <string name="bankroll_no_edge">La cote n\'offre pas d\'edge positif. Ne pariez pas.</string>
+    <string name="bankroll_no_value">AUCUNE VALEUR DANS CE PARI</string>
+    <string name="bankroll_stake_label">MISE RECOMMANDÉE</string>
+    <string name="bankroll_stake_pct">%1$s%% de la bankroll</string>
+    <string name="bankroll_title">BANKROLL</string>
+    <string name="btn_cancel">Annuler</string>
+    <string name="btn_configure_key">Configurer la clé</string>
+    <string name="btn_retry">Réessayer</string>
+    <string name="btn_save">Enregistrer</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Répondre"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vidéo"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Refuser"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Raccrocher"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Appel entrant"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Appel en cours"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrage d\'un appel entrant"</string>
+    <string msgid="406453423630273620" name="close_drawer">"Fermer le menu de navigation"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Fermer la feuille"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Activer</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Activer les services Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Installer les services Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilité des services Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
+    <string name="common_google_play_services_unknown_issue">L\'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas compatibles avec votre appareil.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Mettre à jour</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
+    <string name="common_google_play_services_wear_update_text">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
+    <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
+    <string name="common_signin_button_text">Se connecter</string>
+    <string name="common_signin_button_text_long">Se connecter avec Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Lien copié dans le presse-papiers"</string>
+    <string name="dashboard_kpi_bankroll">Bankroll Actuelle</string>
+    <string name="dashboard_kpi_kelly_subtitle">Kelly : %1$s%%</string>
+    <string name="dashboard_kpi_profit">Bénéfice Total</string>
+    <string name="dashboard_kpi_profit_subtitle">%1$d paris</string>
+    <string name="dashboard_kpi_roi">ROI</string>
+    <string name="dashboard_kpi_roi_subtitle">Retour sur investissement</string>
+    <string name="dashboard_kpi_winrate">Taux de Réussite</string>
+    <string name="dashboard_lambda_away">λ EXT.</string>
+    <string name="dashboard_lambda_home">λ DOM.</string>
+    <string name="dashboard_lambda_total">TOTAL</string>
+    <string name="dashboard_live_badge">EN DIRECT</string>
+    <string name="dashboard_match_config">Configurer le Match</string>
+    <string name="dashboard_no_bets">Aucun pari enregistré pour le moment.</string>
+    <string name="dashboard_odds_away">EXT.</string>
+    <string name="dashboard_odds_draw">NUL</string>
+    <string name="dashboard_odds_home">DOM.</string>
+    <string name="dashboard_poisson_model">Modèle de Poisson</string>
+    <string name="dashboard_recent_history">Historique Récent</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Données incorrectes"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Fenêtre pop-up"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Menu déroulant"</string>
+    <string name="error_fetch">❌ Erreur lors de la récupération des données</string>
+    <string name="error_prefix">❌ Erreur : %1$s</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copier le lien"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Ouvrir dans un navigateur"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Partager le lien"</string>
+    <string name="history_btn_delete">Supprimer</string>
+    <string name="history_btn_register">Enregistrer le Pari</string>
+    <string name="history_full">Historique Complet</string>
+    <string name="history_input_market">Marché (ex : Dom., Nul, Plus de 2.5)</string>
+    <string name="history_input_match">Match (ex : PSG vs Marseille)</string>
+    <string name="history_input_notes">Notes (optionnel)</string>
+    <string name="history_input_stake">Mise (€)</string>
+    <string name="history_kpi_roi_subtitle">Retour sur investissement</string>
+    <string name="history_kpi_total_bets">Total des Paris</string>
+    <string name="history_last_bets">Derniers paris</string>
+    <string name="history_new_bet">Enregistrer un Nouveau Pari</string>
+    <string name="history_no_bets">Aucun pari enregistré pour le moment.</string>
+    <string name="history_profit_curve">Courbe de Bénéfice</string>
+    <string name="history_records_suffix">%1$d entrées</string>
+    <string name="history_result_label">Résultat</string>
+    <string name="history_result_loss">PERDU</string>
+    <string name="history_result_pending">EN ATTENTE</string>
+    <string name="history_result_win">GAGNÉ</string>
+    <string name="history_title">PERFORMANCE</string>
+    <string name="history_validation_error">Veuillez remplir tous les champs correctement.</string>
+    <string msgid="6827826412747255547" name="in_progress">"En cours"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Partiellement coché"</string>
+    <string name="label_api_key">Clé API</string>
+    <string name="label_away">Extérieur</string>
+    <string name="label_away_team">EXTÉRIEUR</string>
+    <string name="label_draw">Nul</string>
+    <string name="label_home">Domicile</string>
+    <string name="label_home_team">DOMICILE</string>
+    <string name="label_liga">LIGUE</string>
+    <string name="live_btn_all">🌍 Toutes</string>
+    <string name="live_btn_today">📅 Aujourd\'hui</string>
+    <string name="live_count_live">⚡ %1$d matchs en direct</string>
+    <string name="live_count_today">📅 %1$d matchs aujourd\'hui</string>
+    <string name="live_dialog_desc">Créez un compte gratuit sur api-sports.io et collez votre clé ci-dessous. Plan gratuit : 100 req/jour.</string>
+    <string name="live_dialog_title">Clé API-Football</string>
+    <string name="live_elapsed">%1$d\'</string>
+    <string name="live_filter_label">FILTRER PAR LIGUE</string>
+    <string name="live_idle_message">Appuyez sur Actualiser pour chercher des matchs en direct</string>
+    <string name="live_key_placeholder">votre-clé-ici</string>
+    <string name="live_loading">Recherche de matchs…</string>
+    <string name="live_no_api_key_desc">Créez un compte gratuit sur api-sports.io et entrez votre clé pour voir les matchs en direct et les cotes réelles.</string>
+    <string name="live_no_api_key_title">Configurez votre clé API-Football</string>
+    <string name="live_no_live_games">Aucun match en direct actuellement</string>
+    <string name="live_no_today_games">Aucun match aujourd\'hui dans cette ligue</string>
+    <string name="live_refresh">Actualiser</string>
+    <string name="live_status_ft">FT</string>
+    <string name="live_status_vs">vs</string>
+    <string name="live_title">EN DIRECT</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Réduire la bottom sheet"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Fermer la bottom sheet"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Poignée de déplacement"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Développer la bottom sheet"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Bottom sheet"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"Date saisie"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Date saisie : %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"La date ne correspond pas au format attendu : %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"Date non autorisée : %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"Date hors de la plage d\'années attendue : %1$s - %2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"Date"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"Aucun"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"Sélectionner une date"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"Date sélectionnée"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"Sélection actuelle : %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"Accéder à l\'année %1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"Aucun"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"Faites défiler pour afficher les années précédentes"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"Faites défiler pour afficher les années suivantes"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"Passer au mode de saisie Agenda"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"Balayez l\'écran pour sélectionner une année ou appuyez pour revenir à la sélection d\'un jour"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"Passer au mode de saisie Texte"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"Passer au mois suivant"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"Passer au mois précédent"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"Passer à la sélection d\'une année"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"Sélectionner une date"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"Aujourd\'hui"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"Sélecteur d\'année visible"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"Plage de dates non valide"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"Saisir des dates"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"Dans la plage"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"Date de fin"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"Faites défiler pour afficher le mois suivant"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"Faites défiler pour afficher le mois précédent"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"Date de début"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"Sélectionner des dates"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"Boîte de dialogue"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"Réduit"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"Développé"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Activer/désactiver le menu déroulant"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"Rechercher"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Fermer"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"Suggestions ci-dessous"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"AM"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Heure"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d heures"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Sélectionner une heure"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d heures"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"en heures"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Minute"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Sélectionner des minutes"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d minutes"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"en minutes"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Sélectionner le format AM ou PM"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Afficher l\'info-bulle"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Info-bulle"</string>
+    <string name="nav_analysis">Analyse IA</string>
+    <string name="nav_bankroll">Bankroll</string>
+    <string name="nav_dashboard">Tableau de bord</string>
+    <string name="nav_live">En Direct</string>
+    <string name="nav_settings">Réglages</string>
+    <string name="nav_value_bets">Value Bets</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Menu de navigation"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Non sélectionné"</string>
+    <string msgid="5941395253238309765" name="range_end">"Fin de plage"</string>
+    <string msgid="7097486360902471446" name="range_start">"Début de plage"</string>
+    <string msgid="6043586758067023" name="selected">"Sélectionné"</string>
+    <string name="settings_ai_model">Modèle IA</string>
+    <string name="settings_app_version">Version</string>
+    <string name="settings_night_shift_bedtime">COUCHER</string>
+    <string name="settings_night_shift_enable">Activer Night Shift</string>
+    <string name="settings_night_shift_intensity">Intensité du filtre : %1$d%%</string>
+    <string name="settings_night_shift_off">Désactivé / hors planning</string>
+    <string name="settings_night_shift_on">Filtre ambré actif maintenant</string>
+    <string name="settings_night_shift_schedule">HORAIRE AUTOMATIQUE</string>
+    <string name="settings_night_shift_turn_off_now">Désactiver maintenant</string>
+    <string name="settings_night_shift_turn_on_now">Activer maintenant</string>
+    <string name="settings_night_shift_wake">RÉVEIL</string>
+    <string name="settings_odds_source">Source des Cotes</string>
+    <string name="settings_section_about">À propos</string>
+    <string name="settings_section_appearance">Apparence</string>
+    <string name="settings_section_night_shift">Night Shift — Filtre Lumière Bleue</string>
+    <string name="settings_theme_dark">Sombre</string>
+    <string name="settings_theme_light">Clair</string>
+    <string name="settings_theme_mode">MODE THÈME</string>
+    <string name="settings_theme_system">Système</string>
+    <string name="settings_title">RÉGLAGES</string>
+    <string msgid="4139871816613051306" name="state_empty">"Vide"</string>
+    <string msgid="5834637030682409883" name="state_off">"Désactivé"</string>
+    <string msgid="1490883874751719580" name="state_on">"Activé"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2561197295334830845" name="switch_role">"Changer"</string>
+    <string msgid="1672349317127674378" name="tab">"Onglet"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> pour cent."</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"Info-bulle"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"Afficher l\'info-bulle"</string>
+    <string name="valuebets_chip_edge">EDGE</string>
+    <string name="valuebets_chip_kelly">KELLY %%</string>
+    <string name="valuebets_chip_odd_fair">COTE JUSTE</string>
+    <string name="valuebets_chip_odd_market">COTE MARCHÉ</string>
+    <string name="valuebets_chip_prob">PROB IA</string>
+    <string name="valuebets_configure_prompt">Configurez un match sur le Tableau de bord\npour détecter des value bets.</string>
+    <string name="valuebets_disclaimer">⚠️ Edge calculé comme (Prob_IA × Cote_Marché − 1) × 100%%. Les paris comportent des risques.</string>
+    <string name="valuebets_level_high">ÉLEVÉE</string>
+    <string name="valuebets_level_low">FAIBLE</string>
+    <string name="valuebets_level_medium">MOYENNE</string>
+    <string name="valuebets_no_bets">Aucune value bet détectée. Le marché semble efficient.</string>
+    <string name="valuebets_odds_comparison">Comparaison des Cotes</string>
+    <string name="valuebets_opportunities">%1$d opportunité(s) trouvée(s)</string>
+    <string name="valuebets_title">VALUE BETS</string>
+</resources>

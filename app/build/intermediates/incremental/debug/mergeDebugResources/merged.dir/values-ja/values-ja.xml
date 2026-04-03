@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="analysis_btn_save_analyze">保存して分析</string>
+    <string name="analysis_btn_start">AI分析を開始</string>
+    <string name="analysis_card_header">AI分析 — 戦術パターン + ポアソン</string>
+    <string name="analysis_dialog_subtitle">AI分析を使用するためにAPIキーを入力してください。</string>
+    <string name="analysis_dialog_title">Anthropic APIキー</string>
+    <string name="analysis_key_placeholder">sk-ant-api03-…</string>
+    <string name="analysis_key_warning">⚠️ キーは sk-ant- で始まる必要があります</string>
+    <string name="analysis_model_label">CLAUDE SONNET — 予測分析</string>
+    <string name="analysis_placeholder">ダッシュボードで試合を設定して、AIで分析をクリックしてください。</string>
+    <string name="analysis_poisson_matrix">ポアソン行列 — スコア確率</string>
+    <string name="analysis_streaming">分析中…</string>
+    <string name="analysis_team_label">%1$s（ホーム）× %2$s（アウェー）</string>
+    <string name="analysis_title">AI分析</string>
+    <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"パスワード"</string>
+    <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"パスキー"</string>
+    <string name="app_name">SentinelBet</string>
+    <string name="bankroll_guide_aggressive">積極的（10%）</string>
+    <string name="bankroll_guide_aggressive_desc">高エッジ（>12%）、最大確信</string>
+    <string name="bankroll_guide_conservative">保守的（2%）</string>
+    <string name="bankroll_guide_conservative_desc">低エッジ（3〜6%）、リスク制御</string>
+    <string name="bankroll_guide_golden">🏆 黄金ルール</string>
+    <string name="bankroll_guide_golden_text">1回のベットで資金の10%を超えないでください。分散リスク保護のため、デフォルトは分数ケリー（25%）を使用してください。</string>
+    <string name="bankroll_guide_micro">マイクロ（1%）</string>
+    <string name="bankroll_guide_micro_desc">探索的ベット、不確かなオッズ</string>
+    <string name="bankroll_guide_moderate">中程度（5%）</string>
+    <string name="bankroll_guide_moderate_desc">中エッジ（7〜12%）、高い信頼性</string>
+    <string name="bankroll_guide_title">資金管理ガイド</string>
+    <string name="bankroll_input_bankroll">総資金（¥）</string>
+    <string name="bankroll_input_kelly_frac">ケリー係数（%）</string>
+    <string name="bankroll_input_odd">オッズ</string>
+    <string name="bankroll_input_prob">確率（%）</string>
+    <string name="bankroll_kelly_card">ケリー基準計算機</string>
+    <string name="bankroll_no_edge">このオッズにポジティブなエッジはありません。ベットしないでください。</string>
+    <string name="bankroll_no_value">このベットに価値なし</string>
+    <string name="bankroll_stake_label">推奨ステーク</string>
+    <string name="bankroll_stake_pct">資金の %1$s%%</string>
+    <string name="bankroll_title">資金管理</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="btn_configure_key">キーを設定</string>
+    <string name="btn_retry">再試行</string>
+    <string name="btn_save">保存</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"応答"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ビデオ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"拒否"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"通話終了"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"着信"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"通話中"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"着信をスクリーニング中"</string>
+    <string msgid="406453423630273620" name="close_drawer">"ナビゲーションメニューを閉じる"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"シートを閉じる"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">有効にする</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play開発者サービスの有効化</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">インストール</string>
+    <string name="common_google_play_services_install_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスにはインストールされていません。</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play開発者サービスの入手</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 開発者サービスの利用</string>
+    <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
+    <string name="common_google_play_services_unsupported_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスではサポートされていません。</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">更新</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play開発者サービスの更新</string>
+    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
+    <string name="common_google_play_services_wear_update_text">Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。</string>
+    <string name="common_open_on_phone">スマートフォンで開く</string>
+    <string name="common_signin_button_text">ログイン</string>
+    <string name="common_signin_button_text_long">Googleにログイン</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"リンクをクリップボードにコピーしました"</string>
+    <string name="dashboard_kpi_bankroll">現在の資金</string>
+    <string name="dashboard_kpi_kelly_subtitle">ケリー：%1$s%%</string>
+    <string name="dashboard_kpi_profit">総利益</string>
+    <string name="dashboard_kpi_profit_subtitle">%1$d ベット</string>
+    <string name="dashboard_kpi_roi">ROI</string>
+    <string name="dashboard_kpi_roi_subtitle">投資収益率</string>
+    <string name="dashboard_kpi_winrate">勝率</string>
+    <string name="dashboard_lambda_away">λ アウェー</string>
+    <string name="dashboard_lambda_home">λ ホーム</string>
+    <string name="dashboard_lambda_total">合計</string>
+    <string name="dashboard_live_badge">ライブ</string>
+    <string name="dashboard_match_config">試合を設定</string>
+    <string name="dashboard_no_bets">ベットはまだ登録されていません。</string>
+    <string name="dashboard_odds_away">アウェー</string>
+    <string name="dashboard_odds_draw">引き分け</string>
+    <string name="dashboard_odds_home">ホーム</string>
+    <string name="dashboard_poisson_model">ポアソンモデル</string>
+    <string name="dashboard_recent_history">最近の履歴</string>
+    <string msgid="8038256446254964252" name="default_error_message">"入力値が無効です"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"ポップアップウィンドウ"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"プルダウン メニュー"</string>
+    <string name="error_fetch">❌ データの取得に失敗しました</string>
+    <string name="error_prefix">❌ エラー：%1$s</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"リンクをコピー"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ブラウザで開く"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"リンクの共有"</string>
+    <string name="history_btn_delete">削除</string>
+    <string name="history_btn_register">ベットを登録</string>
+    <string name="history_full">完全な履歴</string>
+    <string name="history_input_market">市場（例：ホーム、引き分け、2.5以上）</string>
+    <string name="history_input_match">試合（例：バイエルン vs ドルトムント）</string>
+    <string name="history_input_notes">メモ（任意）</string>
+    <string name="history_input_stake">ステーク（¥）</string>
+    <string name="history_kpi_roi_subtitle">投資収益率</string>
+    <string name="history_kpi_total_bets">総ベット数</string>
+    <string name="history_last_bets">最新のベット</string>
+    <string name="history_new_bet">新しいベットを登録</string>
+    <string name="history_no_bets">ベットはまだ登録されていません。</string>
+    <string name="history_profit_curve">利益曲線</string>
+    <string name="history_records_suffix">%1$d 件</string>
+    <string name="history_result_label">結果</string>
+    <string name="history_result_loss">負け</string>
+    <string name="history_result_pending">保留中</string>
+    <string name="history_result_win">勝ち</string>
+    <string name="history_title">パフォーマンス</string>
+    <string name="history_validation_error">すべてのフィールドを正しく入力してください。</string>
+    <string msgid="6827826412747255547" name="in_progress">"処理しています"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"一部 ON"</string>
+    <string name="label_api_key">APIキー</string>
+    <string name="label_away">アウェー</string>
+    <string name="label_away_team">アウェー</string>
+    <string name="label_draw">引き分け</string>
+    <string name="label_home">ホーム</string>
+    <string name="label_home_team">ホーム</string>
+    <string name="label_liga">リーグ</string>
+    <string name="live_btn_all">🌍 すべて</string>
+    <string name="live_btn_today">📅 今日</string>
+    <string name="live_count_live">⚡ %1$d 試合ライブ中</string>
+    <string name="live_count_today">📅 今日 %1$d 試合</string>
+    <string name="live_dialog_desc">api-sports.ioで無料アカウントを作成し、キーを以下に貼り付けてください。無料プラン：100リクエスト/日。</string>
+    <string name="live_dialog_title">API-Footballキー</string>
+    <string name="live_elapsed">%1$d\'</string>
+    <string name="live_filter_label">リーグでフィルター</string>
+    <string name="live_idle_message">更新をタップしてライブ試合を取得</string>
+    <string name="live_key_placeholder">ここにキーを入力</string>
+    <string name="live_loading">試合を検索中…</string>
+    <string name="live_no_api_key_desc">api-sports.ioで無料アカウントを作成し、キーを入力してライブ試合とリアルオッズを確認してください。</string>
+    <string name="live_no_api_key_title">API-Footballキーを設定してください</string>
+    <string name="live_no_live_games">現在ライブ試合はありません</string>
+    <string name="live_no_today_games">このリーグに今日の試合はありません</string>
+    <string name="live_refresh">更新</string>
+    <string name="live_status_ft">終了</string>
+    <string name="live_status_vs">vs</string>
+    <string name="live_title">ライブ</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"ボトムシートを折りたたみます"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"ボトムシートを閉じます"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"ドラッグ ハンドル"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"ボトムシートを開きます"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"ボトムシート"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"入力された日付"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"入力された日付: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"想定パターンと一致しない日付: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"許可されない日付: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"想定される年の範囲（%1$s～%2$s）から日付が外れています"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"日付"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"なし"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"日付の選択"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"選択した日付"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"現在の選択: %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"年に移動 %1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"なし"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"これより前の年を表示するにはスクロールしてください"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"これより後の年を表示するにはスクロールしてください"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"カレンダー入力モードに切り替え"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"スワイプして年を選択するか、タップして日付の選択に戻ります"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"テキスト入力モードに切り替え"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"翌月に変更"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"前月に変更"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"年の選択に切り替え"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"日付の選択"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"今日"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"年の選択ツールの表示"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"入力された期間は無効です"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"日付の入力"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"範囲内"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"終了日"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"翌月を表示するにはスクロールしてください"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"前月を表示するにはスクロールしてください"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"開始日"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"日付の選択"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"ダイアログ"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"閉じています"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"開いています"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"プルダウン メニューを切り替えます"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"検索"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"閉じる"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"検索候補は次のとおりです"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"AM"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"時間"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d 時間"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"時刻を選択"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d 時"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"（時間単位）"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"分"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"分を選択"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d 分"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"（分単位）"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"午前または午後を選択"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"ツールチップを表示"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"ツールチップ"</string>
+    <string name="nav_analysis">AI分析</string>
+    <string name="nav_bankroll">資金管理</string>
+    <string name="nav_dashboard">ダッシュボード</string>
+    <string name="nav_live">ライブ</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_value_bets">バリューベット</string>
+    <string msgid="542007171693138492" name="navigation_menu">"ナビゲーションメニュー"</string>
+    <string msgid="6610465462668679431" name="not_selected">"未選択"</string>
+    <string msgid="5941395253238309765" name="range_end">"範囲の末尾"</string>
+    <string msgid="7097486360902471446" name="range_start">"範囲の先頭"</string>
+    <string msgid="6043586758067023" name="selected">"選択済み"</string>
+    <string name="settings_ai_model">AIモデル</string>
+    <string name="settings_app_version">バージョン</string>
+    <string name="settings_night_shift_bedtime">就寝</string>
+    <string name="settings_night_shift_enable">Night Shiftを有効にする</string>
+    <string name="settings_night_shift_intensity">フィルター強度：%1$d%%</string>
+    <string name="settings_night_shift_off">オフ / スケジュール外</string>
+    <string name="settings_night_shift_on">アンバーフィルターが有効です</string>
+    <string name="settings_night_shift_schedule">自動スケジュール</string>
+    <string name="settings_night_shift_turn_off_now">今すぐオフにする</string>
+    <string name="settings_night_shift_turn_on_now">今すぐオンにする</string>
+    <string name="settings_night_shift_wake">起床</string>
+    <string name="settings_odds_source">オッズソース</string>
+    <string name="settings_section_about">アプリについて</string>
+    <string name="settings_section_appearance">外観</string>
+    <string name="settings_section_night_shift">Night Shift — ブルーライトフィルター</string>
+    <string name="settings_theme_dark">ダーク</string>
+    <string name="settings_theme_light">ライト</string>
+    <string name="settings_theme_mode">テーマモード</string>
+    <string name="settings_theme_system">システム</string>
+    <string name="settings_title">設定</string>
+    <string msgid="4139871816613051306" name="state_empty">"なし"</string>
+    <string msgid="5834637030682409883" name="state_off">"OFF"</string>
+    <string msgid="1490883874751719580" name="state_on">"ON"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2561197295334830845" name="switch_role">"切り替える"</string>
+    <string msgid="1672349317127674378" name="tab">"タブ"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g>パーセント。"</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"ツールチップ"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"ツールチップを表示"</string>
+    <string name="valuebets_chip_edge">エッジ</string>
+    <string name="valuebets_chip_kelly">ケリー%%</string>
+    <string name="valuebets_chip_odd_fair">フェアオッズ</string>
+    <string name="valuebets_chip_odd_market">市場オッズ</string>
+    <string name="valuebets_chip_prob">AI確率</string>
+    <string name="valuebets_configure_prompt">ダッシュボードで試合を設定して\nバリューベットを検出してください。</string>
+    <string name="valuebets_disclaimer">⚠️ エッジ計算：(AI確率 × 市場オッズ − 1) × 100%%。ベットにはリスクが伴います。</string>
+    <string name="valuebets_level_high">高</string>
+    <string name="valuebets_level_low">低</string>
+    <string name="valuebets_level_medium">中</string>
+    <string name="valuebets_no_bets">バリューベットが検出されませんでした。市場は効率的なようです。</string>
+    <string name="valuebets_odds_comparison">オッズ比較</string>
+    <string name="valuebets_opportunities">%1$d 件のチャンスが見つかりました</string>
+    <string name="valuebets_title">バリューベット</string>
+</resources>
