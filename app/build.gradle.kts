@@ -77,7 +77,8 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.kotlinx.coroutines.android)
 
-    // Security (removido EncryptedSharedPreferences - usando SharedPreferences padrão)
+    // Security
+    implementation("androidx.security:security-crypto:1.1.0-alpha06")
 
     // Supabase (auth + database) — FREE tier, R$ 0,00
     implementation(platform(libs.supabase.bom))

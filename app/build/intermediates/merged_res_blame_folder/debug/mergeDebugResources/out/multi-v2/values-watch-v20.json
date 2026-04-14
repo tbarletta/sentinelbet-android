@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sentinelbet.app-mergeDebugResources-68:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.sentinelbet.app-mergeDebugResources-69:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarl\\.gradle\\caches\\8.9\\transforms\\5bd6bf8b7195d56e97e1b5633249bd36\\transformed\\play-services-auth-21.1.1\\res\\values-watch-v20\\values.xml",

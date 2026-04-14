@@ -1,6 +1,6 @@
 package com.sentinelbet.app.data.repository;
 
-import android.content.Context;
+import com.sentinelbet.app.data.secure.SecurePreferences;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.QualifierMetadata;
@@ -9,7 +9,7 @@ import javax.annotation.processing.Generated;
 import javax.inject.Provider;
 
 @ScopeMetadata("javax.inject.Singleton")
-@QualifierMetadata("dagger.hilt.android.qualifiers.ApplicationContext")
+@QualifierMetadata
 @DaggerGenerated
 @Generated(
     value = "dagger.internal.codegen.ComponentProcessor",
@@ -24,22 +24,22 @@ import javax.inject.Provider;
     "deprecation"
 })
 public final class ApiKeyRepository_Factory implements Factory<ApiKeyRepository> {
-  private final Provider<Context> contextProvider;
+  private final Provider<SecurePreferences> securePrefsProvider;
 
-  public ApiKeyRepository_Factory(Provider<Context> contextProvider) {
-    this.contextProvider = contextProvider;
+  public ApiKeyRepository_Factory(Provider<SecurePreferences> securePrefsProvider) {
+    this.securePrefsProvider = securePrefsProvider;
   }
 
   @Override
   public ApiKeyRepository get() {
-    return newInstance(contextProvider.get());
+    return newInstance(securePrefsProvider.get());
   }
 
-  public static ApiKeyRepository_Factory create(Provider<Context> contextProvider) {
-    return new ApiKeyRepository_Factory(contextProvider);
+  public static ApiKeyRepository_Factory create(Provider<SecurePreferences> securePrefsProvider) {
+    return new ApiKeyRepository_Factory(securePrefsProvider);
   }
 
-  public static ApiKeyRepository newInstance(Context context) {
-    return new ApiKeyRepository(context);
+  public static ApiKeyRepository newInstance(SecurePreferences securePrefs) {
+    return new ApiKeyRepository(securePrefs);
   }
 }

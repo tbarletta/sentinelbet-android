@@ -2,12 +2,14 @@ package com.sentinelbet.app.data.repository
 
 import com.sentinelbet.app.data.db.SettingEntity
 import com.sentinelbet.app.data.db.SettingsDao
+import com.sentinelbet.app.data.secure.SecurePreferences
 import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
 class SettingsRepository @Inject constructor(
     private val dao: SettingsDao,
+    private val securePrefs: SecurePreferences,
 ) {
     suspend fun getBankroll(): Double =
         dao.get("bankroll")?.toDoubleOrNull() ?: 1000.0
@@ -22,10 +24,10 @@ class SettingsRepository @Inject constructor(
         dao.upsert(SettingEntity("kelly_fraction", value.toString()))
 
     suspend fun getApiFootballKey(): String? =
-        dao.get("api_football_key")?.takeIf { it.isNotBlank() }
+        securePrefs.getString("api_football_key", null)?.takeIf { it.isNotBlank() }
 
     suspend fun setApiFootballKey(value: String) =
-        dao.upsert(SettingEntity("api_football_key", value.trim()))
+        securePrefs.putString("api_football_key", value.trim())
 
     // ── Theme ──────────────────────────────────────────────────────────────
     /** 0 = follow system, 1 = force light, 2 = force dark */

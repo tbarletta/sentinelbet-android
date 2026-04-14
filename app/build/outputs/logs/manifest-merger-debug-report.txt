@@ -84,6 +84,7 @@ MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\tbarl\.gradle\cach
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\tbarl\.gradle\caches\8.9\transforms\91f9629215a612768271bda558bf3770\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tbarl\.gradle\caches\8.9\transforms\92d55e2f6c2a847aef629fc2d3468f7e\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] C:\Users\tbarl\.gradle\caches\8.9\transforms\2ab08e5a915ac6b4944b12abd5adb22a\transformed\krypto-debug\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\tbarl\.gradle\caches\8.9\transforms\e281919e6ec45ecbf1f9e4aba3b31905\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tbarl\.gradle\caches\8.9\transforms\e790c150738db33251ab82fe645125e6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] C:\Users\tbarl\.gradle\caches\8.9\transforms\f8f0c3fec3e624049c39ae8423da3ba6\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\tbarl\.gradle\caches\8.9\transforms\0b497383e7c3fd2471bee0ad793d86e3\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
@@ -368,6 +369,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tbarl\.
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tbarl\.gradle\caches\8.9\transforms\92d55e2f6c2a847aef629fc2d3468f7e\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] C:\Users\tbarl\.gradle\caches\8.9\transforms\2ab08e5a915ac6b4944b12abd5adb22a\transformed\krypto-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] C:\Users\tbarl\.gradle\caches\8.9\transforms\2ab08e5a915ac6b4944b12abd5adb22a\transformed\krypto-debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\tbarl\.gradle\caches\8.9\transforms\e281919e6ec45ecbf1f9e4aba3b31905\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\tbarl\.gradle\caches\8.9\transforms\e281919e6ec45ecbf1f9e4aba3b31905\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tbarl\.gradle\caches\8.9\transforms\e790c150738db33251ab82fe645125e6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tbarl\.gradle\caches\8.9\transforms\e790c150738db33251ab82fe645125e6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] C:\Users\tbarl\.gradle\caches\8.9\transforms\f8f0c3fec3e624049c39ae8423da3ba6\transformed\multiplatform-settings-no-arg-debug\AndroidManifest.xml:21:5-44

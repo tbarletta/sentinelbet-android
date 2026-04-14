@@ -1,6 +1,7 @@
 package com.sentinelbet.app.data.repository;
 
 import com.sentinelbet.app.data.db.SettingsDao;
+import com.sentinelbet.app.data.secure.SecurePreferences;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.QualifierMetadata;
@@ -26,20 +27,25 @@ import javax.inject.Provider;
 public final class SettingsRepository_Factory implements Factory<SettingsRepository> {
   private final Provider<SettingsDao> daoProvider;
 
-  public SettingsRepository_Factory(Provider<SettingsDao> daoProvider) {
+  private final Provider<SecurePreferences> securePrefsProvider;
+
+  public SettingsRepository_Factory(Provider<SettingsDao> daoProvider,
+      Provider<SecurePreferences> securePrefsProvider) {
     this.daoProvider = daoProvider;
+    this.securePrefsProvider = securePrefsProvider;
   }
 
   @Override
   public SettingsRepository get() {
-    return newInstance(daoProvider.get());
+    return newInstance(daoProvider.get(), securePrefsProvider.get());
   }
 
-  public static SettingsRepository_Factory create(Provider<SettingsDao> daoProvider) {
-    return new SettingsRepository_Factory(daoProvider);
+  public static SettingsRepository_Factory create(Provider<SettingsDao> daoProvider,
+      Provider<SecurePreferences> securePrefsProvider) {
+    return new SettingsRepository_Factory(daoProvider, securePrefsProvider);
   }
 
-  public static SettingsRepository newInstance(SettingsDao dao) {
-    return new SettingsRepository(dao);
+  public static SettingsRepository newInstance(SettingsDao dao, SecurePreferences securePrefs) {
+    return new SettingsRepository(dao, securePrefs);
   }
 }

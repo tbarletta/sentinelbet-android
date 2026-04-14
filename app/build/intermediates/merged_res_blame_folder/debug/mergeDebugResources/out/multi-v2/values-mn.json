@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sentinelbet.app-mergeDebugResources-68:/values-mn/values-mn.xml",
+            "outputFile": "com.sentinelbet.app-mergeDebugResources-69:/values-mn/values-mn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarl\\.gradle\\caches\\8.9\\transforms\\3518e55918514a064165bc3af31f89dc\\transformed\\play-services-basement-18.3.0\\res\\values-mn\\values.xml",

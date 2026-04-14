@@ -15,6 +15,7 @@ import com.sentinelbet.app.data.repository.AuthRepository;
 import com.sentinelbet.app.data.repository.BetRepository;
 import com.sentinelbet.app.data.repository.SettingsRepository;
 import com.sentinelbet.app.data.repository.SubscriptionRepository;
+import com.sentinelbet.app.data.secure.SecurePreferences;
 import com.sentinelbet.app.di.AppModule_ProvideApiFootballRepositoryFactory;
 import com.sentinelbet.app.di.AppModule_ProvideBetDaoFactory;
 import com.sentinelbet.app.di.AppModule_ProvideDatabaseFactory;
@@ -419,28 +420,19 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_sentinelbet_app_viewmodel_DashboardViewModel = "com.sentinelbet.app.viewmodel.DashboardViewModel";
-
-      static String com_sentinelbet_app_viewmodel_ThemeViewModel = "com.sentinelbet.app.viewmodel.ThemeViewModel";
-
-      static String com_sentinelbet_app_viewmodel_FixturesViewModel = "com.sentinelbet.app.viewmodel.FixturesViewModel";
-
       static String com_sentinelbet_app_viewmodel_BankrollViewModel = "com.sentinelbet.app.viewmodel.BankrollViewModel";
 
       static String com_sentinelbet_app_viewmodel_AnalysisViewModel = "com.sentinelbet.app.viewmodel.AnalysisViewModel";
 
       static String com_sentinelbet_app_viewmodel_AuthViewModel = "com.sentinelbet.app.viewmodel.AuthViewModel";
 
+      static String com_sentinelbet_app_viewmodel_ThemeViewModel = "com.sentinelbet.app.viewmodel.ThemeViewModel";
+
+      static String com_sentinelbet_app_viewmodel_DashboardViewModel = "com.sentinelbet.app.viewmodel.DashboardViewModel";
+
+      static String com_sentinelbet_app_viewmodel_FixturesViewModel = "com.sentinelbet.app.viewmodel.FixturesViewModel";
+
       static String com_sentinelbet_app_viewmodel_HistoryViewModel = "com.sentinelbet.app.viewmodel.HistoryViewModel";
-
-      @KeepFieldType
-      DashboardViewModel com_sentinelbet_app_viewmodel_DashboardViewModel2;
-
-      @KeepFieldType
-      ThemeViewModel com_sentinelbet_app_viewmodel_ThemeViewModel2;
-
-      @KeepFieldType
-      FixturesViewModel com_sentinelbet_app_viewmodel_FixturesViewModel2;
 
       @KeepFieldType
       BankrollViewModel com_sentinelbet_app_viewmodel_BankrollViewModel2;
@@ -450,6 +442,15 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
 
       @KeepFieldType
       AuthViewModel com_sentinelbet_app_viewmodel_AuthViewModel2;
+
+      @KeepFieldType
+      ThemeViewModel com_sentinelbet_app_viewmodel_ThemeViewModel2;
+
+      @KeepFieldType
+      DashboardViewModel com_sentinelbet_app_viewmodel_DashboardViewModel2;
+
+      @KeepFieldType
+      FixturesViewModel com_sentinelbet_app_viewmodel_FixturesViewModel2;
 
       @KeepFieldType
       HistoryViewModel com_sentinelbet_app_viewmodel_HistoryViewModel2;
@@ -511,28 +512,22 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_sentinelbet_app_viewmodel_AuthViewModel = "com.sentinelbet.app.viewmodel.AuthViewModel";
-
       static String com_sentinelbet_app_viewmodel_AnalysisViewModel = "com.sentinelbet.app.viewmodel.AnalysisViewModel";
-
-      static String com_sentinelbet_app_viewmodel_FixturesViewModel = "com.sentinelbet.app.viewmodel.FixturesViewModel";
 
       static String com_sentinelbet_app_viewmodel_ThemeViewModel = "com.sentinelbet.app.viewmodel.ThemeViewModel";
 
       static String com_sentinelbet_app_viewmodel_HistoryViewModel = "com.sentinelbet.app.viewmodel.HistoryViewModel";
 
-      static String com_sentinelbet_app_viewmodel_DashboardViewModel = "com.sentinelbet.app.viewmodel.DashboardViewModel";
-
       static String com_sentinelbet_app_viewmodel_BankrollViewModel = "com.sentinelbet.app.viewmodel.BankrollViewModel";
 
-      @KeepFieldType
-      AuthViewModel com_sentinelbet_app_viewmodel_AuthViewModel2;
+      static String com_sentinelbet_app_viewmodel_DashboardViewModel = "com.sentinelbet.app.viewmodel.DashboardViewModel";
+
+      static String com_sentinelbet_app_viewmodel_FixturesViewModel = "com.sentinelbet.app.viewmodel.FixturesViewModel";
+
+      static String com_sentinelbet_app_viewmodel_AuthViewModel = "com.sentinelbet.app.viewmodel.AuthViewModel";
 
       @KeepFieldType
       AnalysisViewModel com_sentinelbet_app_viewmodel_AnalysisViewModel2;
-
-      @KeepFieldType
-      FixturesViewModel com_sentinelbet_app_viewmodel_FixturesViewModel2;
 
       @KeepFieldType
       ThemeViewModel com_sentinelbet_app_viewmodel_ThemeViewModel2;
@@ -541,10 +536,16 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
       HistoryViewModel com_sentinelbet_app_viewmodel_HistoryViewModel2;
 
       @KeepFieldType
+      BankrollViewModel com_sentinelbet_app_viewmodel_BankrollViewModel2;
+
+      @KeepFieldType
       DashboardViewModel com_sentinelbet_app_viewmodel_DashboardViewModel2;
 
       @KeepFieldType
-      BankrollViewModel com_sentinelbet_app_viewmodel_BankrollViewModel2;
+      FixturesViewModel com_sentinelbet_app_viewmodel_FixturesViewModel2;
+
+      @KeepFieldType
+      AuthViewModel com_sentinelbet_app_viewmodel_AuthViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -673,6 +674,8 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
 
     private Provider<ComputeAnalysisUseCase> computeAnalysisUseCaseProvider;
 
+    private Provider<SecurePreferences> securePreferencesProvider;
+
     private Provider<ApiKeyRepository> apiKeyRepositoryProvider;
 
     private Provider<SupabaseClient> provideSupabaseClientProvider;
@@ -707,14 +710,15 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
     private void initialize(final ApplicationContextModule applicationContextModuleParam) {
       this.provideOkHttpClientProvider = DoubleCheck.provider(new SwitchingProvider<OkHttpClient>(singletonCImpl, 1));
       this.computeAnalysisUseCaseProvider = DoubleCheck.provider(new SwitchingProvider<ComputeAnalysisUseCase>(singletonCImpl, 0));
+      this.securePreferencesProvider = DoubleCheck.provider(new SwitchingProvider<SecurePreferences>(singletonCImpl, 3));
       this.apiKeyRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<ApiKeyRepository>(singletonCImpl, 2));
-      this.provideSupabaseClientProvider = DoubleCheck.provider(new SwitchingProvider<SupabaseClient>(singletonCImpl, 4));
-      this.subscriptionRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<SubscriptionRepository>(singletonCImpl, 5));
-      this.authRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<AuthRepository>(singletonCImpl, 3));
-      this.provideDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<SentinelBetDatabase>(singletonCImpl, 7));
-      this.betRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<BetRepository>(singletonCImpl, 6));
-      this.settingsRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<SettingsRepository>(singletonCImpl, 8));
-      this.provideApiFootballRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<ApiFootballRepository>(singletonCImpl, 9));
+      this.provideSupabaseClientProvider = DoubleCheck.provider(new SwitchingProvider<SupabaseClient>(singletonCImpl, 5));
+      this.subscriptionRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<SubscriptionRepository>(singletonCImpl, 6));
+      this.authRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<AuthRepository>(singletonCImpl, 4));
+      this.provideDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<SentinelBetDatabase>(singletonCImpl, 8));
+      this.betRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<BetRepository>(singletonCImpl, 7));
+      this.settingsRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<SettingsRepository>(singletonCImpl, 9));
+      this.provideApiFootballRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<ApiFootballRepository>(singletonCImpl, 10));
     }
 
     @Override
@@ -757,27 +761,30 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
           return (T) AppModule_ProvideOkHttpClientFactory.provideOkHttpClient();
 
           case 2: // com.sentinelbet.app.data.repository.ApiKeyRepository 
-          return (T) new ApiKeyRepository(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
+          return (T) new ApiKeyRepository(singletonCImpl.securePreferencesProvider.get());
 
-          case 3: // com.sentinelbet.app.data.repository.AuthRepository 
+          case 3: // com.sentinelbet.app.data.secure.SecurePreferences 
+          return (T) new SecurePreferences(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
+
+          case 4: // com.sentinelbet.app.data.repository.AuthRepository 
           return (T) new AuthRepository(singletonCImpl.provideSupabaseClientProvider.get(), ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule), singletonCImpl.subscriptionRepositoryProvider.get());
 
-          case 4: // io.github.jan.supabase.SupabaseClient 
+          case 5: // io.github.jan.supabase.SupabaseClient 
           return (T) SupabaseModule_ProvideSupabaseClientFactory.provideSupabaseClient();
 
-          case 5: // com.sentinelbet.app.data.repository.SubscriptionRepository 
+          case 6: // com.sentinelbet.app.data.repository.SubscriptionRepository 
           return (T) new SubscriptionRepository(singletonCImpl.provideSupabaseClientProvider.get());
 
-          case 6: // com.sentinelbet.app.data.repository.BetRepository 
+          case 7: // com.sentinelbet.app.data.repository.BetRepository 
           return (T) new BetRepository(singletonCImpl.betDao());
 
-          case 7: // com.sentinelbet.app.data.db.SentinelBetDatabase 
+          case 8: // com.sentinelbet.app.data.db.SentinelBetDatabase 
           return (T) AppModule_ProvideDatabaseFactory.provideDatabase(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
 
-          case 8: // com.sentinelbet.app.data.repository.SettingsRepository 
-          return (T) new SettingsRepository(singletonCImpl.settingsDao());
+          case 9: // com.sentinelbet.app.data.repository.SettingsRepository 
+          return (T) new SettingsRepository(singletonCImpl.settingsDao(), singletonCImpl.securePreferencesProvider.get());
 
-          case 9: // com.sentinelbet.app.data.repository.ApiFootballRepository 
+          case 10: // com.sentinelbet.app.data.repository.ApiFootballRepository 
           return (T) AppModule_ProvideApiFootballRepositoryFactory.provideApiFootballRepository(singletonCImpl.provideOkHttpClientProvider.get(), singletonCImpl.settingsRepositoryProvider.get());
 
           default: throw new AssertionError(id);

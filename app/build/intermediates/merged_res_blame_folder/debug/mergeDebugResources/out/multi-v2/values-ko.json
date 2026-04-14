@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.sentinelbet.app-mergeDebugResources-68:/values-ko/values-ko.xml",
+            "outputFile": "com.sentinelbet.app-mergeDebugResources-69:/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tbarl\\.gradle\\caches\\8.9\\transforms\\8725e12d7369b8a962fbfeb3e6784c5f\\transformed\\play-services-base-18.3.0\\res\\values-ko\\values.xml",
