@@ -13,7 +13,7 @@
     <string name="analysis_streaming">Analizando…</string>
     <string name="analysis_team_label">%1$s (Local) × %2$s (Visitante)</string>
     <string name="analysis_title">ANÁLISIS IA</string>
-    <string name="app_name">SentinelBet</string>
+    <string name="app_name">SentinelBets</string>
     <string name="bankroll_guide_aggressive">Agresivo (10%)</string>
     <string name="bankroll_guide_aggressive_desc">Edge alto (>12%), máxima convicción</string>
     <string name="bankroll_guide_conservative">Conservador (2%)</string>

@@ -419,40 +419,40 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_sentinelbet_app_viewmodel_FixturesViewModel = "com.sentinelbet.app.viewmodel.FixturesViewModel";
+      static String com_sentinelbet_app_viewmodel_DashboardViewModel = "com.sentinelbet.app.viewmodel.DashboardViewModel";
 
       static String com_sentinelbet_app_viewmodel_ThemeViewModel = "com.sentinelbet.app.viewmodel.ThemeViewModel";
 
-      static String com_sentinelbet_app_viewmodel_AuthViewModel = "com.sentinelbet.app.viewmodel.AuthViewModel";
+      static String com_sentinelbet_app_viewmodel_FixturesViewModel = "com.sentinelbet.app.viewmodel.FixturesViewModel";
 
       static String com_sentinelbet_app_viewmodel_BankrollViewModel = "com.sentinelbet.app.viewmodel.BankrollViewModel";
 
-      static String com_sentinelbet_app_viewmodel_DashboardViewModel = "com.sentinelbet.app.viewmodel.DashboardViewModel";
-
-      static String com_sentinelbet_app_viewmodel_HistoryViewModel = "com.sentinelbet.app.viewmodel.HistoryViewModel";
-
       static String com_sentinelbet_app_viewmodel_AnalysisViewModel = "com.sentinelbet.app.viewmodel.AnalysisViewModel";
 
-      @KeepFieldType
-      FixturesViewModel com_sentinelbet_app_viewmodel_FixturesViewModel2;
+      static String com_sentinelbet_app_viewmodel_AuthViewModel = "com.sentinelbet.app.viewmodel.AuthViewModel";
 
-      @KeepFieldType
-      ThemeViewModel com_sentinelbet_app_viewmodel_ThemeViewModel2;
-
-      @KeepFieldType
-      AuthViewModel com_sentinelbet_app_viewmodel_AuthViewModel2;
-
-      @KeepFieldType
-      BankrollViewModel com_sentinelbet_app_viewmodel_BankrollViewModel2;
+      static String com_sentinelbet_app_viewmodel_HistoryViewModel = "com.sentinelbet.app.viewmodel.HistoryViewModel";
 
       @KeepFieldType
       DashboardViewModel com_sentinelbet_app_viewmodel_DashboardViewModel2;
 
       @KeepFieldType
-      HistoryViewModel com_sentinelbet_app_viewmodel_HistoryViewModel2;
+      ThemeViewModel com_sentinelbet_app_viewmodel_ThemeViewModel2;
+
+      @KeepFieldType
+      FixturesViewModel com_sentinelbet_app_viewmodel_FixturesViewModel2;
+
+      @KeepFieldType
+      BankrollViewModel com_sentinelbet_app_viewmodel_BankrollViewModel2;
 
       @KeepFieldType
       AnalysisViewModel com_sentinelbet_app_viewmodel_AnalysisViewModel2;
+
+      @KeepFieldType
+      AuthViewModel com_sentinelbet_app_viewmodel_AuthViewModel2;
+
+      @KeepFieldType
+      HistoryViewModel com_sentinelbet_app_viewmodel_HistoryViewModel2;
     }
   }
 
@@ -515,15 +515,15 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
 
       static String com_sentinelbet_app_viewmodel_AnalysisViewModel = "com.sentinelbet.app.viewmodel.AnalysisViewModel";
 
-      static String com_sentinelbet_app_viewmodel_HistoryViewModel = "com.sentinelbet.app.viewmodel.HistoryViewModel";
-
-      static String com_sentinelbet_app_viewmodel_BankrollViewModel = "com.sentinelbet.app.viewmodel.BankrollViewModel";
+      static String com_sentinelbet_app_viewmodel_FixturesViewModel = "com.sentinelbet.app.viewmodel.FixturesViewModel";
 
       static String com_sentinelbet_app_viewmodel_ThemeViewModel = "com.sentinelbet.app.viewmodel.ThemeViewModel";
 
-      static String com_sentinelbet_app_viewmodel_FixturesViewModel = "com.sentinelbet.app.viewmodel.FixturesViewModel";
+      static String com_sentinelbet_app_viewmodel_HistoryViewModel = "com.sentinelbet.app.viewmodel.HistoryViewModel";
 
       static String com_sentinelbet_app_viewmodel_DashboardViewModel = "com.sentinelbet.app.viewmodel.DashboardViewModel";
+
+      static String com_sentinelbet_app_viewmodel_BankrollViewModel = "com.sentinelbet.app.viewmodel.BankrollViewModel";
 
       @KeepFieldType
       AuthViewModel com_sentinelbet_app_viewmodel_AuthViewModel2;
@@ -532,19 +532,19 @@ public final class DaggerSentinelBetApp_HiltComponents_SingletonC {
       AnalysisViewModel com_sentinelbet_app_viewmodel_AnalysisViewModel2;
 
       @KeepFieldType
-      HistoryViewModel com_sentinelbet_app_viewmodel_HistoryViewModel2;
-
-      @KeepFieldType
-      BankrollViewModel com_sentinelbet_app_viewmodel_BankrollViewModel2;
+      FixturesViewModel com_sentinelbet_app_viewmodel_FixturesViewModel2;
 
       @KeepFieldType
       ThemeViewModel com_sentinelbet_app_viewmodel_ThemeViewModel2;
 
       @KeepFieldType
-      FixturesViewModel com_sentinelbet_app_viewmodel_FixturesViewModel2;
+      HistoryViewModel com_sentinelbet_app_viewmodel_HistoryViewModel2;
 
       @KeepFieldType
       DashboardViewModel com_sentinelbet_app_viewmodel_DashboardViewModel2;
+
+      @KeepFieldType
+      BankrollViewModel com_sentinelbet_app_viewmodel_BankrollViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {

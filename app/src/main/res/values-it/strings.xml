@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SentinelBet</string>
+    <string name="app_name">SentinelBets</string>
 
     <string name="nav_dashboard">Dashboard</string>
     <string name="nav_live">In Diretta</string>

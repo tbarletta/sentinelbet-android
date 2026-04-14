@@ -13,7 +13,7 @@
     <string name="analysis_streaming">جارٍ التحليل…</string>
     <string name="analysis_team_label">%1$s (المضيف) × %2$s (الضيف)</string>
     <string name="analysis_title">تحليل الذكاء الاصطناعي</string>
-    <string name="app_name">SentinelBet</string>
+    <string name="app_name">SentinelBets</string>
     <string name="bankroll_guide_aggressive">عدواني (10%)</string>
     <string name="bankroll_guide_aggressive_desc">ميزة عالية (>12%)، قناعة قصوى</string>
     <string name="bankroll_guide_conservative">محافظ (2%)</string>

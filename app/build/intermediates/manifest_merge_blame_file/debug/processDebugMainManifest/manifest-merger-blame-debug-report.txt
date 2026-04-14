@@ -46,16 +46,16 @@
 30        android:supportsRtl="true"
 30-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:12:9-35
 31        android:testOnly="true"
-32        android:theme="@style/Theme.SentinelBet" >
-32-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:13:9-49
+32        android:theme="@style/Theme.SentinelBets" >
+32-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:13:9-50
 33        <activity
 33-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:17:9-39:20
 34            android:name="com.sentinelbet.app.MainActivity"
 34-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:18:13-41
 35            android:exported="true"
 35-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:19:13-36
-36            android:theme="@style/Theme.SentinelBet"
-36-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:20:13-53
+36            android:theme="@style/Theme.SentinelBets"
+36-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:20:13-54
 37            android:windowSoftInputMode="adjustResize" >
 37-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:21:13-55
 38            <intent-filter>
@@ -75,9 +75,8 @@
 47                Add this URL to Supabase Auth → URL Configuration → Redirect URLs:
 48                  sentinelbet://login-callback
 49            -->
-50            <intent-filter android:autoVerify="true" >
+50            <intent-filter>
 50-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:33:13-38:29
-50-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:33:28-53
 51                <action android:name="android.intent.action.VIEW" />
 51-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:34:17-69
 51-->C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:34:25-66

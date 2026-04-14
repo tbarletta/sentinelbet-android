@@ -29,11 +29,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.SentinelBet" >
+        android:theme="@style/Theme.SentinelBets" >
         <activity
             android:name="com.sentinelbet.app.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.SentinelBet"
+            android:theme="@style/Theme.SentinelBets"
             android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,7 +47,7 @@
                 Add this URL to Supabase Auth → URL Configuration → Redirect URLs:
                   sentinelbet://login-callback
             -->
-            <intent-filter android:autoVerify="true" >
+            <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />

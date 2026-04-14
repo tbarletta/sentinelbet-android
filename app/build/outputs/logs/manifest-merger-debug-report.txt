@@ -159,7 +159,7 @@ MERGED from [androidx.startup:startup-runtime:1.2.0] C:\Users\tbarl\.gradle\cach
 	android:allowBackup
 		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:13:9-49
+		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:13:9-50
 	android:networkSecurityConfig
 		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:14:9-69
 	android:name
@@ -171,7 +171,7 @@ ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManif
 	android:exported
 		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:19:13-36
 	android:theme
-		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:20:13-53
+		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:20:13-54
 	android:name
 		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
@@ -186,8 +186,6 @@ ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManif
 		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:24:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:login-callback+data:scheme:sentinelbet
 ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:33:13-38:29
-	android:autoVerify
-		ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:33:28-53
 action#android.intent.action.VIEW
 ADDED from C:\Users\tbarl\projetos\sentinelbet-android\app\src\main\AndroidManifest.xml:34:17-69
 	android:name

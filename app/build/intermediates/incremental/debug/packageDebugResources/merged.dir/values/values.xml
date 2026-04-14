@@ -15,7 +15,7 @@
     <string name="analysis_streaming">Analisando…</string>
     <string name="analysis_team_label">%1$s (Casa) × %2$s (Fora)</string>
     <string name="analysis_title">ANÁLISE IA</string>
-    <string name="app_name">SentinelBet</string>
+    <string name="app_name">SentinelBets</string>
     <string name="bankroll_guide_aggressive">Agressivo (10%)</string>
     <string name="bankroll_guide_aggressive_desc">Edge alto (>12%), máxima convicção</string>
     <string name="bankroll_guide_conservative">Conservador (2%)</string>
@@ -147,11 +147,10 @@
     <string name="valuebets_odds_comparison">Comparação de Odds</string>
     <string name="valuebets_opportunities">%1$d oportunidade(s) encontrada(s)</string>
     <string name="valuebets_title">VALUE BETS</string>
-    <style name="Theme.SentinelBet" parent="android:Theme.Material.NoActionBar">
+    <style name="Theme.SentinelBets" parent="android:Theme.Material.NoActionBar">
         <item name="android:windowBackground">@color/bg</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@color/bg</item>
         <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
     </style>
 </resources>

@@ -153,6 +153,6 @@ string valuebets_no_bets
 string valuebets_odds_comparison
 string valuebets_opportunities
 string valuebets_title
-style Theme.SentinelBet
+style Theme.SentinelBets
 xml locale_config
 xml network_security_config

@@ -15,7 +15,7 @@
     <string name="analysis_title">KI-ANALYSE</string>
     <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"Passwort"</string>
     <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"Passkey"</string>
-    <string name="app_name">SentinelBet</string>
+    <string name="app_name">SentinelBets</string>
     <string name="bankroll_guide_aggressive">Aggressiv (10%)</string>
     <string name="bankroll_guide_aggressive_desc">Hoher Edge (>12%), maximale Überzeugung</string>
     <string name="bankroll_guide_conservative">Konservativ (2%)</string>

@@ -534,7 +534,7 @@ int style TextAppearance_Compat_Notification_Line2 0x7f0c0007
 int style TextAppearance_Compat_Notification_Time 0x7f0c0008
 int style TextAppearance_Compat_Notification_Title 0x7f0c0009
 int style Theme_Hidden 0x7f0c000a
-int style Theme_SentinelBet 0x7f0c000b
+int style Theme_SentinelBets 0x7f0c000b
 int style Widget_Compat_NotificationActionContainer 0x7f0c000c
 int style Widget_Compat_NotificationActionText 0x7f0c000d
 int[] styleable ActivityNavigator { 0x01010003, 0x7f030000, 0x7f030006, 0x7f030007, 0x7f03002a }

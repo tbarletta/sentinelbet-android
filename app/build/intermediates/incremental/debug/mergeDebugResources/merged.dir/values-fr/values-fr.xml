@@ -15,7 +15,7 @@
     <string name="analysis_title">ANALYSE IA</string>
     <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"Mot de passe"</string>
     <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"Clé d\'accès"</string>
-    <string name="app_name">SentinelBet</string>
+    <string name="app_name">SentinelBets</string>
     <string name="bankroll_guide_aggressive">Agressif (10%)</string>
     <string name="bankroll_guide_aggressive_desc">Edge élevé (>12%), conviction maximale</string>
     <string name="bankroll_guide_conservative">Conservateur (2%)</string>

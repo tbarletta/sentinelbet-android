@@ -13,7 +13,7 @@
     <string name="analysis_streaming">分析中…</string>
     <string name="analysis_team_label">%1$s（ホーム）× %2$s（アウェー）</string>
     <string name="analysis_title">AI分析</string>
-    <string name="app_name">SentinelBet</string>
+    <string name="app_name">SentinelBets</string>
     <string name="bankroll_guide_aggressive">積極的（10%）</string>
     <string name="bankroll_guide_aggressive_desc">高エッジ（>12%）、最大確信</string>
     <string name="bankroll_guide_conservative">保守的（2%）</string>

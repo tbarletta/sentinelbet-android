@@ -8,6 +8,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.TrendingUp
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -74,7 +75,7 @@ fun DashboardScreen(
             ) {
                 Image(
                     painter = painterResource(R.drawable.ic_app_logo),
-                    contentDescription = "SentinelBet",
+                    contentDescription = "SentinelBets",
                     modifier = Modifier.size(34.dp).clip(RoundedCornerShape(8.dp)),
                 )
                 Spacer(Modifier.width(10.dp))
@@ -172,7 +173,7 @@ fun DashboardScreen(
                             value      = "$profitSign R\$${"%.0f".format(summary.totalProfit)}",
                             subtitle   = "${summary.totalBets} apostas",
                             accentColor= profitColor,
-                            icon       = Icons.Filled.TrendingUp,
+                            icon       = Icons.AutoMirrored.Filled.TrendingUp,
                             modifier   = Modifier.weight(1f),
                         )
                         KpiCard(

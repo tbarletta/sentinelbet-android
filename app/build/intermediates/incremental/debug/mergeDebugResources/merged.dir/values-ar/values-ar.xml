@@ -15,7 +15,7 @@
     <string name="analysis_title">تحليل الذكاء الاصطناعي</string>
     <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"كلمة المرور"</string>
     <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"مفتاح المرور"</string>
-    <string name="app_name">SentinelBet</string>
+    <string name="app_name">SentinelBets</string>
     <string name="bankroll_guide_aggressive">عدواني (10%)</string>
     <string name="bankroll_guide_aggressive_desc">ميزة عالية (>12%)، قناعة قصوى</string>
     <string name="bankroll_guide_conservative">محافظ (2%)</string>
